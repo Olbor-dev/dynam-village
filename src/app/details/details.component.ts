@@ -2,10 +2,11 @@ import { Component, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ProductsService } from '../products.service';
 import { Product } from '../product';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-details',
-  imports: [],
+  imports: [RouterModule],
   template: `
     <article>
       <img class="listing-image" [src]="product?.image">
@@ -18,7 +19,7 @@ import { Product } from '../product';
       </section>
       <section class="listing-apply">
         <h2 class="section-heading">Valider pour quitter</h2>
-        <button class="primary" type="button">Valider</button>
+        <button class="primary" type="button" routerLink="/">Valider</button>
       </section>
     </article>
   `,
