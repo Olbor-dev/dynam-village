@@ -1,0 +1,42 @@
+.container {
+    background-color: #FDD908;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image {
+    padding-top: 20px;
+    max-width: 350px;
+    max-height: 400px;
+    padding-bottom: 20px;
+}
+
+.listing {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.details-name {
+    color: #DA001E;
+    font-size: 2rem;
+}
+
+.details-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.apply-button {
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    padding: 5px;
+}

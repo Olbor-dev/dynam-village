@@ -8,19 +8,18 @@ import { RouterModule } from '@angular/router';
   selector: 'app-details',
   imports: [RouterModule],
   template: `
-    <article>
-      <img class="listing-image" [src]="product?.image">
-      <section class="listing-detail">
-        <h2 class="listing-name">{{product?.name}}</h2>
-        <p class="listing-description">{{product?.description}}</p>
-      </section>
-      <section class="listing-features">
-        <h2 class="listing-price">{{product?.price}}</h2>
-      </section>
-      <section class="listing-apply">
-        <h2 class="section-heading">Valider pour quitter</h2>
-        <button class="primary" type="button" routerLink="/">Valider</button>
-      </section>
+    <article class="container">
+      <img class="image" [src]="product?.image">
+      <div class="listing">
+        <section class="details">
+          <h2 class="details-name">{{product?.name}}</h2>
+          <p class="details-description">{{product?.description}}</p>
+          <p class="details-price">Prix {{product?.price}} €</p>
+        </section>
+        <section class="apply">
+          <button class="apply-button" type="button" routerLink="/">Retour</button>
+        </section>
+      </div>
     </article>
   `,
   styleUrl: './details.component.css'
