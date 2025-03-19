@@ -8,10 +8,12 @@ import { RouterModule } from '@angular/router';
   imports: [CommonModule, RouterModule],
   template: `
     <section class="listing">
-      <img class="listing-img" [src]="product.image" alt="Image de {{product.name}}">
-      <h2 class="listing-name">{{product.name}}</h2>
-      <p class="listing-price">{{product.price}}</p>
-      <a [routerLink]="['/product', product.id]">Voir plus</a>
+      <img class="listing-image" [src]="product.image" alt="Image de {{product.name}}">
+      <div class="listing-infos">
+        <h2 class="info-name">{{product.name}}</h2>
+        <p class="info-price">{{product.price}}</p>
+        <a [routerLink]="['/product', product.id]">Voir plus</a>
+      </div>
     </section>
   `,
   styleUrl: './product.component.css'

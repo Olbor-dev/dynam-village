@@ -10,29 +10,57 @@ export class ProductsService {
       id: 0,
       name: "Asterix",
       description: "Figurine représentant Asterix. Hauteur 12 cm.",
-      image: "/asterix.png",
+      image: "/Asterix.jpeg",
       price: 15.49
     },
     {
       id: 1,
       name: "Obelix",
       description: "Figurine représentant Obelix. Hauteur 14 cm.",
-      image: "/obelix.png",
+      image: "/Obelix.jpeg",
       price: 17.99
     },
     {
       id: 2,
-      name: "Idefix",
-      description: "Figurine représentant Idefix. Hauteur 4 cm.",
-      image: "/idefix.png",
-      price: 8.79
+      name: "Panoramix",
+      description: "Figurine représentant Panoramix. Hauteur 13 cm.",
+      image: "/Panoramix.jpeg",
+      price: 18.79
     },
     {
       id: 3,
-      name: "Falbala",
-      description: "Figurine représentant Falbala. Hauteur 11 cm.",
-      image: "/falbala.png",
-      price: 13.29
+      name: "Abraracourcix",
+      description: "Figurine représentant Abraracourcix. Hauteur 18 cm.",
+      image: "/Abraracourcix.jpeg",
+      price: 21.29
+    },
+    {
+      id: 4,
+      name: "Assurancetourix",
+      description: "Figurine représentant Assurancetourix. Hauteur 12 cm.",
+      image: "/Assurancetourix.jpeg",
+      price: 11.49
+    },
+    {
+      id: 5,
+      name: "César",
+      description: "Figurine représentant César. Hauteur 14 cm.",
+      image: "/Cesar.jpeg",
+      price: 13.99
+    },
+    {
+      id: 6,
+      name: "Romains",
+      description: "Figurine représentant des Romains. Hauteur 13 cm.",
+      image: "/Romains.jpeg",
+      price: 18.79
+    },
+    {
+      id: 7,
+      name: "Bonhemine",
+      description: "Figurine représentant Bonemine. Hauteur 10 cm.",
+      image: "/Bonemine.jpeg",
+      price: 14.29
     }
   ];
 

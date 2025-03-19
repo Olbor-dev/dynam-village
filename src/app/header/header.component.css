@@ -1,0 +1,39 @@
+.container {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #151217;
+}
+
+.image {
+    width: 160px;
+    margin: 15%;
+    border-radius: 20px;
+}
+
+.image:hover {
+    border: #DA001E;
+    border-style: solid;
+}
+
+.links {
+    padding-right: 5%;
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #FDD90B;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #DA001E;
+    text-shadow: 2px 2px 2px #FDD90B;
+}
+
+.links a:focus, .links a:active {
+    color: #DA001E;
+}

@@ -1,0 +1,21 @@
+.container {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DA001E;
+}
+
+.links {
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.links img {
+    height: 50px;
+    width: auto;
+}
