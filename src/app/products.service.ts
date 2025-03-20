@@ -8,14 +8,14 @@ export class ProductsService {
   protected productsList: Product[] = [
     {
       id: 0,
-      name: "Asterix",
+      name: "Astérix",
       description: "Figurine représentant Asterix. Hauteur 12 cm.",
       image: "/Asterix.jpeg",
       price: 15.49
     },
     {
       id: 1,
-      name: "Obelix",
+      name: "Obélix",
       description: "Figurine représentant Obelix. Hauteur 14 cm.",
       image: "/Obelix.jpeg",
       price: 17.99

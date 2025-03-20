@@ -1,5 +1,5 @@
 .container {
-    height: 200px;
+    height: 180px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,7 +7,7 @@
 }
 
 .image {
-    width: 160px;
+    width: 140px;
     margin: 15%;
     border-radius: 20px;
 }
